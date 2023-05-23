@@ -1,4 +1,6 @@
 wd = Dir.pwd
-for logs in Dir["logs/*"]
-    File.delete("#{wd}/#{logs}")
+for log in Dir["logs/*"]
+    if not log.include? ".gitignore"
+        File.delete("#{wd}/#{log}")
+    end
 end
