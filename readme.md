@@ -1,10 +1,11 @@
 # List of Nimr projects
 Nimr is project destined to test Nim programming language. Below is Nim-related
 
-- **NIMROD** (Nim Risk-of-Death) - small [The Isle of Ansur]()-like inspired
-  RPG game with small modularity system.  
+- **NIMROD** (Nim Risk-of-Death) - small [The Isle of Ansur](https://github.com/Toma400/The_Isle_of_Ansur)
+  -like inspired RPG game with small modularity system.  
   Launched with `nim c -r nimrod.nim` command.
-- **Quais** (Quartz-Lapis) - small software designed to test [Nigui]() framework.  
+- **Quais** (Quartz-Lapis) - small software designed to test [Nigui](https://github.com/simonkrauter/NiGui)
+  framework.  
   Uses log system, with accompanying Ruby script to remove them.  
   Launched with `nim c -r quais.nim` command.
 
